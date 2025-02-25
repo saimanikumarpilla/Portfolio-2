@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: .3s ease;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content:center ;
+   align-items: center;
+}
+nav{
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    height: 8%;
+    position: fixed;
+    z-index: 999;
+    top: 50px;
+    padding: 7px;
+    border-radius: 50px;
+    border: solid 1px #000000;
+    box-shadow: 0 5px 9px #000000;  
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav ul li a{
+    color: #1465ff;
+    font-weight: 400;
+    font-size: 30px;
+    position: relative;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+    text-decoration: none;
+
+}
+a::after{
+    content:'';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    border-radius: 10px;
+    background: #1465ff;
+    bottom: 0;
+    left: 50%;
+    transition: all 0.3s ease;
+}
+a:hover::after{
+    width: 100%;
+    left:0%;
+
+}
+.about{
+    margin:180px 20px 20px 20px;
+    height: 400px;
+    width: 1000px;
+    
+    padding:10px;
+}
+.about h1{
+    color: #1465ff;
+    margin-bottom: none;
+    font-weight: 400;
+    text-shadow:2px 2px 5px #1465ff;
+}
+.about div{
+    display: flex;
+}
+.ad1{
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.p1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.p2{
+    font-size: 25px;
+    font-weight: 350px;
+}
+.p3{
+    font-size: 25px;
+    font-weight: 350px;
+}
+.p4{
+    font-size: 25px;
+    font-weight: 350px;
+    margin-top: 0px;
+}
+.auto-type{
+    font-size: 30px;
+    font-weight: 300;
+    color: #1465ff;
+    margin-top: 0px;
+}
+.projects{
+    height: 560px;
+    width: 1000px;
+    margin: 20px;
+}
+.ad2{
+    height: 350px;
+    width: 500px;
+   
+}
+.pr1{
+    display: flex;
+    justify-content: center;
+}
+.pr2{
+    display: flex;
+    justify-content: center;
+}
+.pr2 div{
+    border: #1465ff solid 1px;
+    height:450px;
+    width: 20%;
+    margin: 5px;
+    border-radius:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+    overflow: hidden;
+}
+.pr2 div:hover{
+    width: 40%;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px #acf0ff;
+}
+
+.di{
+    height: 100%;
+    filter: blur(5px) ;
+    background-image: linear-gradient( top,white 50% ,transprent 50%);
+    
+}
+.wn{
+    position: absolute;
+    z-index: 10;
+    text-decoration: none;
+    color: #1465ff;
+    font-size: 20px;
+    text-shadow: black;
+}
+.bt{
+    height: 30px;
+    width: 830px;
+    color:#1465ff;
+    background-color: white;
+    border: #1465ff 2px solid;
+    border-radius: 20px;
+    transition: .3s ease-in-out ;
+    margin-top: 10px;
+    
+}
+.bt:hover{
+    background-color: #1465ff;
+    color: white;
+    height:40px ;
+    box-shadow:0 0 20px #acf0ff;
+}
+.home{
+    border: 2px red solid;
+    height: 500px;
+    width: 1000px;
+    margin: 20px;
+    
+}
+.contact{
+    height: 1000px;
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+   
+}
+.c1{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin: 20px;
+    padding: 20px;
+    background-color: #acf0ff;
+    border-radius: 30px;
+}
+.c1  a div{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px #1465ff;
+}
+.c1 a div img{
+    width: 80%;
+}
+.c1 a div:hover{
+    height: 300px;
+    width: 300px;
+
+}
+.c2{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
