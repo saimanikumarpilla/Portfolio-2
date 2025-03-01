@@ -237,34 +237,50 @@ a:hover::after{
     grid-template-rows: 50px 50px 50px 50px 50px  50px 50px 50px 50px 50px;
 }
 .item-1{
-    background-color: #acf0ff;
+    background-color: #6650f9;
     border: 2px solid #ffffff;
     border-radius: 20px;
     grid-area: 2/2/3/10;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
 }
 .item-2{
-    background-color: #acf0ff;
+    background-color: orange;
     border: 2px solid #feffff;
     border-radius: 20px;
-    grid-area: 4/2/10/2;
+    grid-area: 4/2/10/4;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
 }
 .item-3{
-    background-color: #acf0ff;
+    background-color: #42a5f5;
     border: 2px solid #ffffff;
     border-radius: 20px;
-    grid-area: 4/4/7/10;
+    grid-area: 4/5/7/10;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
 }
+
 .item-4{
-    background-color: #acf0ff;
+    background-color: rgb(255, 202, 40);
     border: 2px solid #ffffff;
     border-radius: 20px;
-    grid-area: 8/4/10/7;
+    grid-area: 8/5/10/7;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
 }
 .item-5{
-    background-color: #acf0ff;
+    background-color: rgb(7, 134, 95);
     border: 2px solid #f8f8f8;
     border-radius: 20px;
     grid-area: 8/8/10/10;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
 }
 .scontain div{
     display: flex;
@@ -274,6 +290,6 @@ a:hover::after{
 
 }
 .scontain div:hover{
-   box-shadow: #ffffff 0 0 20px;
-
+   box-shadow: #ffffff 4px 4px 20px;
+   transform: rotatey(20deg) rotatex(20deg) scale(1.2);
 }
