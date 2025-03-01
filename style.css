@@ -229,7 +229,7 @@ a:hover::after{
 .scontain{
     height: 500px;
     width: 960px;
-    background-color: #ff2ec792;
+    background-color:#1465ff ;
     border-radius: 30px ;
     border:#f200b1e7 2px solid ;
     display: grid;
