@@ -229,9 +229,9 @@ a:hover::after{
 .scontain{
     height: 500px;
     width: 960px;
-    background-color:#1465ff ;
+    background-color:#1265f5;
     border-radius: 30px ;
-    border:#f200b1e7 2px solid ;
+    border:#1465ff 2px solid ;
     display: grid;
     grid-template-columns: 96px 96px 96px 96px 96px 96px 96px 96px 96px 96px;
     grid-template-rows: 50px 50px 50px 50px 50px  50px 50px 50px 50px 50px;
