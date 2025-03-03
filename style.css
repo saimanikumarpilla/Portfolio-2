@@ -61,7 +61,6 @@ a:hover::after{
     margin:180px 20px 20px 20px;
     height: 400px;
     width: 1000px;
-    
     padding:10px;
 }
 .about h1{
@@ -292,4 +291,65 @@ a:hover::after{
 .scontain div:hover{
    box-shadow: #ffffff 4px 4px 20px;
    transform: rotatey(20deg) rotatex(20deg) scale(1.2);
+}
+.bb{
+    display: hidden;
+}
+@media (max-width:1000px){
+   nav{
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    position:absolute;
+    left: 20px;
+    top: 20px;
+   }
+   
+   nav ul{
+    flex-direction: column;
+   }
+   .about div{
+    flex-direction: column;
+    align-items: center;
+
+   }
+   .about{
+    height: 600px;
+   }
+   .ad2 img{
+    height: 300px;
+   }
+   .bb{
+    display: flex;
+    border: solid 2px #1265f5;
+    height: 50px;
+    width: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: #1265f5;
+   }
+   .projects{
+    height: 1000px;
+   
+
+   }
+   .pr2{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px 30px;
+   }
+   .pr2 div{
+    height: 360px;
+    width: 90%;
+   }
+   .pr2 div:hover{
+    height: 400px;
+    width: 100%;
+
+   }
 }
