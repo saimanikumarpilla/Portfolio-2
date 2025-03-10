@@ -335,21 +335,60 @@ a:hover::after{
     color: #1265f5;
    }
    .projects{
-    height: 1800px;
-    width: 1000px;
+    height: 1000px;
+    width: 100vw;
    }
   .pr2{
-    height: 1600px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .pr2 div{
-    width: 50%;
+    width: 80%;
+    height: 200px;
 
   }
   .pr2 div:hover{
-    width: 65%;
+    width: 80%;
   }
+  .home{
+    width: 100vw;
+    height: 1100px;
+    ;
+  }
+  .pr3{
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 0px;
+  }
+  .scontain{
+    height: 960px;
+    width: 400px;
+    grid-template-columns:40px 40px 40px 40px 40px  40px 40px 40px 40px 40px ;
+    grid-template-rows: 96px 96px 96px 96px 96px 96px 96px 96px 96px 96px;
+    margin-bottom: 0px
+  }
+  .contact{
+    width: 400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+  .c2{
+    height: 400px;
+    width: 400px;
+  }
+  .c1{
+    height:400px;
+  }
+  .c1 div{
+    height: 90px;
+    width: 80%;
+  }
+
 }
