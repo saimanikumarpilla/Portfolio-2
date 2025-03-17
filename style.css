@@ -394,7 +394,7 @@ a:hover::after{
     height: 50px;
     width: 60px;
     overflow: hidden;
-    margin: 10px;
+    margin: 11px;
   }
   .c1 a div:hover{
     position: sticky;
