@@ -385,10 +385,21 @@ a:hover::after{
   }
   .c1{
     height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
   }
-  .c1 div{
-    height: 90px;
-    width: 82%;
+  .c1 a div{
+    height: 50px;
+    width: 60px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  .c1 a div:hover{
+    position: sticky;
+    scale: 1;
+    overflow: hidden;
   }
 
 }
