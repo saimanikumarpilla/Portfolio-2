@@ -6,6 +6,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     transition: .3s ease;
+    scroll-behavior: smooth;
 }
 body{
    display: flex;
@@ -296,6 +297,7 @@ a:hover::after{
 .bb{
     display: hidden;
 }
+
 @media (max-width:1000px){
    nav{
     height: 200px;
