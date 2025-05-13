@@ -15,11 +15,18 @@ body{
    align-items: center;
    margin-left: 40px;
 }
-.block{
-    animation: appear 5s linear;
-    animation-timeline:view();
-    animation-range:entry 0% cover 40%;
+
+
+
+.block {
+  animation-name: appear, disappear;
+  animation-duration: 5s, 5s;
+  animation-timing-function: linear;
+  animation-timeline: view(), view();
+  animation-range: entry 0% cover 40%, exit 0% cover 70%;
 }
+
+
 @keyframes appear{
     from{
         opacity: 0;
@@ -29,6 +36,16 @@ body{
         opacity:100;
         scale:1;
     }
+}
+@keyframes disappear{
+from{
+opecity:100;
+scale:1;
+}
+to{
+opacity:50;
+scale:0.6;
+}
 }
 nav{
     background-color: rgba(255,255,255,0.15);
