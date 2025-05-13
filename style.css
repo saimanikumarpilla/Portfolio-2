@@ -23,7 +23,7 @@ body{
   animation-duration: 5s, 5s;
   animation-timing-function: linear;
   animation-timeline: view(), view();
-  animation-range: entry 0% cover 40%, exit 0% cover 70%;
+  animation-range: entry 0% cover 40%, exit 0% cover 40%;
 }
 
 
@@ -43,7 +43,7 @@ opecity:100;
 scale:1;
 }
 to{
-opacity:50;
+opacity:0;
 scale:0.6;
 }
 }
