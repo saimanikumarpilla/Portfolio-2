@@ -14,6 +14,21 @@ body{
    justify-content:center ;
    align-items: center;
    margin-left: 40px;
+   animation: inital 1.5s linear;
+}
+@keyframes inital{
+    from{
+        opacity: 0;
+        scale: 0.1;
+        filter: blur(1000px);
+        
+    }
+    to{
+        opacity: 100;
+        scale: 1;
+        filter: blur(0px);
+        
+    }
 }
 
 
