@@ -11,16 +11,109 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="body">
-<nav class="main-nav">
-  <ul>
-    <li class="active"><a href="#home" title="Home"><i class="fas fa-home"></i></a></li>
-    <li><a href="#projects" title="Projects"><i class="fas fa-folder-open"></i></a></li>
-    <li><a href="#about" title="Skills"><i class="fas fa-chart-bar"></i></a></li>
-    <li><a href="#contact" title="Contact"><i class="fas fa-envelope"></i></a></li>
-  </ul>
-</nav>
-    <style>
-        /* GLASSMORPHISM BASE STYLES */
+<style>
+  /*animation*/
+  @media (min-width:768px){
+
+  
+  @keyframes start1{
+    0%{
+   position: relative;
+   right: 0px;
+   bottom: 0px;
+
+    }
+    50%{
+      scale: 0.4;
+      position: relative;
+      right: 200px;
+      bottom:0px;
+    }
+    100%{
+      position: relative;
+      scale: 1;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+  @keyframes start2{
+      0%{
+   position: relative;
+   left: 0px;
+   bottom: 0px;
+
+    }
+    50%{
+      scale: 0.3;
+      position: relative;
+      left: 200px;
+      bottom:550px;
+    }
+    100%{
+      position: relative;
+      scale: 1;
+      left: 0px;
+      bottom: 0px;
+    }
+  }
+  @keyframes start3{
+     0%{
+   position: relative;
+   right: 0px;
+   bottom: 0px;
+
+    }
+    50%{
+      scale: 0.3;
+      position: relative;
+      right: 200px;
+      bottom: 1000px;
+    }
+    100%{
+      position: relative;
+      scale: 1;
+      right: 0px;
+      bottom: 0px;
+
+    }
+  }
+  @keyframes start4{
+       0%{
+   position: relative;
+   left: 0px;
+   bottom: 0px;
+
+    }
+    50%{
+      scale: 0.3;
+      position: relative;
+      left: 200px;
+      bottom:1600px;
+    }
+    100%{
+      position: relative;
+      scale: 1;
+      left: 0px;
+      bottom: 0px;
+    }
+  }
+  .about{
+    animation: start1 3s ease-in-out;
+
+  }
+  .projects{
+    animation: start2 3s ease-in-out;
+
+  }
+  .skills-section{
+    animation: start3 3s ease-in-out;
+
+  }
+  .contact{
+    animation: start4 3s ease-in-out;
+
+}
+  }
 body {
   min-height: 100vh;
 background: linear-gradient(120deg, #a8a8a8 0%, #878787 100%);
